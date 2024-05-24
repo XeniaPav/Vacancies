@@ -1,4 +1,4 @@
-from classes import HeadHunterAPI
+from src.classes import HeadHunterAPI
 
 def user_interaction():
     """
@@ -12,7 +12,7 @@ def user_interaction():
     print(f'Найдено {len(vacancies)} вакансий')
     return vacancies
 
-def choise_command():
+def choise_command(command = None):
     """
     Функция для выбора действий пользователя
     :return: команда пользователя

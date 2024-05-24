@@ -1,4 +1,4 @@
-from classes import JSONSaver, Vacancy
+from src.classes import JSONSaver, Vacancy
 from func import user_interaction, choise_command
 
 vac = user_interaction()
