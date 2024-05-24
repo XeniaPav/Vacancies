@@ -170,7 +170,3 @@ class JSONSaver(JSONSave):
         for i in list:
             print(f"""Название вакансии: {i['name']}\nЗарплата: {i['payment_to']} - {i['payment_to']}\nГород: {i['town']}\nТребования: {i['requirement']}""")
 
-
-if __name__ == "__main__":
-    a = Vacancy("Python", 0, 0, "Москва")
-    print(a)
